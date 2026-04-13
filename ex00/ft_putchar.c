@@ -1,13 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jason <wkoon-we@student.42.fr>             +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/13 08:20:12 by jason             #+#    #+#             */
+/*   Updated: 2026/04/13 08:23:07 by jason            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 #include <stdio.h>
 
-void ft_putchar(char c){
-  write(1, &c, 1);
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
 }
 
-
-int main() {
-  ft_putchar('A');
-  printf("\n");
-  return 0;
+int	main(void)
+{
+	ft_putchar('A');
+	write(1, &c, 1);
+	return (0);
 }
